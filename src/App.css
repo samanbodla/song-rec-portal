@@ -1,0 +1,141 @@
+
+
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+.link{
+  text-decoration:none;
+}
+.songContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.bio {
+  text-align: center;
+  color: #859398;
+  margin-top: 16px;
+}
+
+.scrollable {
+  margin-top: 16px;
+  height: 450px;
+  overflow-y: auto;
+}
+  
+.btn-connect {background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%)}
+.btn-connect {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+   position:absolute;
+   top: 20px;
+   right: 20px; 
+ }
+
+ .btn-connect:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .btn-else {background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%)}
+.btn-else {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-else:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+  
+
+
+ .disp-rec {background-image: linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%)}
+ .disp-rec {
+    margin: 10px;
+    padding: 15px 45px;
+    /* text-align: center; */
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+  }
+
+  .disp-rec:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+.input {
+  margin-top: 16px;
+  padding: 8px;
+  /* border: 0; */
+  border-radius: 5px;
+  display:block;
+}
+
+.loadingcat {
+  margin-top: 16px;
+  width: 40px;
+  align-self: center;
+}
+
+.loadingbar {
+  width: 150px;
+  align-self: center;
+}
+
+
+
+.songImage {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.songTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.songArtist {
+  font-size: 16px;
+  font-weight: 400;
+}

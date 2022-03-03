@@ -11,7 +11,7 @@ The app also communicates with the Spotify API to retrieve each song's title, ar
 <img src="https://github.com/samanbodla/song-rec-portal/blob/master/src/assets/screenshot.PNG" width="1000" />
 
 ### Installation
-You will first need to create a spotify development account and create your credentials. To recommend songs you will need a metamask wallet which commmunicates on the Rinkeby test network. To start the app, in the terminal you must run
+You will first need to create a spotify development account and create your credentials to use for the app. To recommend songs you will need a metamask wallet which commmunicates on the Rinkeby test network. To start the app, in the terminal you must run
 ``` 
 npm install 
 ```

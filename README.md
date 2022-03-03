@@ -1,7 +1,7 @@
 
 
 ## The Song Recommendation Portal
-Am app that takes in entries of song recommendations and communicates with the blockchain with this [smart contract](https://github.com/samanbodla/song-rec-smart-contract).
+An app that takes in entries of song recommendations and communicates with the blockchain with this [smart contract](https://github.com/samanbodla/song-rec-smart-contract).
 
 ### Description
 After connecting to a wallet, the app allows the user to recommend songs which requires a transaction since the songs are stored in the blockchain. All recommended songs are displayed and can be clicked to open it's spotify page. 
